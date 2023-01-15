@@ -1,0 +1,42 @@
+{
+  "name": "msn-api",
+  "version": "1.0.0",
+  "description": "API para controle de chat em tempo real",
+  "main": "./src/server.ts",
+  "scripts": {
+    "test": "jest --coverage --watchAll",
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/United-Devs/msn-api.git"
+  },
+  "author": "Clayton Rafael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/United-Devs/msn-api/issues"
+  },
+  "homepage": "https://github.com/United-Devs/msn-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/jest": "^29.2.5",
+    "@types/socket.io": "^3.0.2",
+    "@types/socket.io-client": "^3.0.0",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "socket.io-client": "^4.5.4",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
